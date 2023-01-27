@@ -135,3 +135,39 @@ body {
   background-color: #181719;
   color: white;
 }
+
+main {
+  margin: 44px 77px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.nav-left {
+  font-family: Crimson Pro;
+}
+
+.nav-left div {
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.nav-right {
+  display: flex;
+  gap: 110px;
+  font-family: Montserrat;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-right a:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
