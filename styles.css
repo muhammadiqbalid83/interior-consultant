@@ -136,14 +136,19 @@ body {
   color: white;
 }
 
+/* main */
+
 main {
   margin: 44px 77px;
 }
+
+/* nav */
 
 nav {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .nav-left {
@@ -170,4 +175,43 @@ nav {
 .nav-right a:hover {
   padding-bottom: 5px;
   border-bottom: 3px solid white;
+}
+
+/* hero */
+
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hero-left {
+}
+
+.hero-left h1 {
+  font-family: Lora;
+  font-size: 36px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.hero-left p {
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.hero-right .photo1 {
+  width: 100%;
+}
+
+.profile-top .photo2 {
+  width: 50px;
+  border-radius: 100px;
 }
